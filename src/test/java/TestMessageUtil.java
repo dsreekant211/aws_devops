@@ -16,7 +16,7 @@ public class TestMessageUtil {
   @Test
   public void testSalutationMessage() {
     System.out.println("Inside testSalutationMessage()");
-    message = "Hii!" + "Robert";
+    message = "Hiii!" + "Robert";
     assertEquals(message,messageUtil.salutationMessage());
   }
 }
