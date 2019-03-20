@@ -4,7 +4,6 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/my-web-app.war my-web-app.war
 artifacts:
   files:
-    - my-web-app.war
+    - target/webapp.war
