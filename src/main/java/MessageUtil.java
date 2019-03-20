@@ -11,7 +11,7 @@ public class MessageUtil {
   }
 
   public String salutationMessage() {
-    message = "Hiii!" + message;
+    message = "Hiiii!" + message;
     System.out.println(message);
     return message;
   }
