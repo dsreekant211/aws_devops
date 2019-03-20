@@ -16,11 +16,7 @@ public class TestMessageUtil {
   @Test
   public void testSalutationMessage() {
     System.out.println("Inside testSalutationMessage()");
-<<<<<<< HEAD
-    message = "from terraform" + "sreekanth";
-=======
-    message = "Hello!" + "Robert";
->>>>>>> c62e23b993bfdc46ba49f68636ebf3cab1daf5cb
+    message = "Hi!" + "Robert";
     assertEquals(message,messageUtil.salutationMessage());
   }
 }
